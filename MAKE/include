@@ -1,0 +1,42 @@
+## ----------------------------------------------------------------------
+## MAKE/include : include makefile for xml-core
+## ----------------------------------------------------------------------
+
+## ----------------------------------------------------------------------
+## System directory definitions
+prefix		= $(DESTDIR)/usr
+bin_dir		= $(prefix)/bin
+sbin_dir	= $(prefix)/sbin
+share_dir	= $(prefix)/share
+
+## ----------------------------------------------------------------------
+## Local directory definitions
+local_dir	= $(prefix)/local
+local_share_dir	= $(local_dir)/share
+
+## ----------------------------------------------------------------------
+## Manual pages directory definitions
+man_dir		= $(share_dir)/man
+man1_ext	= 1
+man1_dir	= $(man_dir)/man$(man1_ext)
+man8_ext	= 8
+man8_dir	= $(man_dir)/man$(man8_ext)
+
+## ----------------------------------------------------------------------
+## XML directory definitions
+xml_dir		= $(share_dir)/xml
+local_xml_dir	= $(local_share_dir)/xml
+schema_dir	= $(xml_dir)/schema
+
+## ----------------------------------------------------------------------
+## Build definitions
+POD2MAN		= pod2man
+
+## ----------------------------------------------------------------------
+## Install definitions
+INSTALL		= install
+INSTALL_DIR	= $(INSTALL) -m 755 -d
+INSTALL_BIN	= $(INSTALL) -m 755
+INSTALL_FILE	= $(INSTALL) -m 644
+
+## ----------------------------------------------------------------------

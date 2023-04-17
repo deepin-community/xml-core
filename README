@@ -1,0 +1,7 @@
+This is the Debian xml-core package.  To install it on a non-Debian
+system edit the Makefile and then run `make`, `make install`.
+
+The changelog is in the 'debian' directory.
+
+--
+Ardo van Rangelrooij <ardo@debian.org>
