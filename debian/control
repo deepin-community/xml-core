@@ -1,8 +1,7 @@
 Source: xml-core
 Section: text
 Priority: optional
-Maintainer: Debian XML-SGML group <debian-sgml@lists.debian.org>
-Uploaders: Joseph Herlant <aerostitch@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper-compat (= 12)
 Build-Depends-Indep: perl
 Standards-Version: 4.3.0

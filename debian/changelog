@@ -1,3 +1,11 @@
+xml-core (0.19) unstable; urgency=medium
+
+  * QA upload.
+  * Set maintainer to Debian QA Group <packages@qa.debian.org>. (see: #660687)
+  * debian/control: Remove Uploaders field.
+
+ -- Victor Henrique Amorim Cardoso <vcardoso@alunos.utfpr.edu.br>  Mon, 11 Dec 2023 23:01:07 -0300
+
 xml-core (0.18+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.
